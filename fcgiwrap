@@ -1,0 +1,4 @@
+FCGI_USER="www-data"
+FCGI_GROUP="www-data"
+FCGI_SOCKET_OWNER="nginx"
+FCGI_SOCKET_GROUP="nginx"
