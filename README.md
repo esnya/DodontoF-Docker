@@ -10,7 +10,7 @@ docker build -t dodontof DodontoF-Docker
 
 ### Setup: Make data directories
 ```sh
-wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.47.17.zip
+wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.47.20.zip
 unzip DodontoF_Ver.1.47.17.zip
 cp -r DodontoF_WebSet/saveData <path/to/saveData>
 cp -r DodontoF_WebSet/public/imageUploadSpace <path/to/imageUploadSpace>
