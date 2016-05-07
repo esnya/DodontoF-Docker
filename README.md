@@ -10,7 +10,7 @@ Dockerfile for [DodontoF](http://www.dodontof.com/)
 
 2. Make data directories
   ```sh
-  wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.48.00.zip
+  wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.48.01.zip
   unzip DodontoF_Ver.1.47.17.zip
   cp -r DodontoF_WebSet/saveData <path/to/saveData>
   cp -r DodontoF_WebSet/public_html/imageUploadSpace <path/to/imageUploadSpace>
