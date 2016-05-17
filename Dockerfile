@@ -13,7 +13,7 @@ RUN apk add --update \
     && rm -rf /var/cache/apk/*
 
 WORKDIR /usr/local/src
-RUN wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.48.03.zip -q -O DodontoF.zip \
+RUN wget http://www.dodontof.com/DodontoF/DodontoF_Ver.1.48.04.zip -q -O DodontoF.zip \
     && unzip DodontoF.zip \
     && rm DodontoF.zip \
     && sh -c 'sed -i -e "1s|/usr/local/bin/ruby|`which ruby`|" DodontoF_WebSet/public_html/DodontoF/*.rb' \
