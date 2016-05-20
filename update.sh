@@ -17,7 +17,7 @@ fi
 
 git checkout master || exit 3
 
-cat Dockerfile | sed -e "s/DodontoF_Ver\.[0-9]\+\.[0-9]\+\.[0-9]\+\.zip/DodontoF_Ver.$VERSION.zip/g"
+cat Dockerfile | sed -e "s/DodontoF_Ver\.[0-9]\+\.[0-9]\+\.[0-9]\+\.zip/DodontoF_Ver.$VERSION.zip/g" > Dockerfile
 
 git add Dockerfile || exit 3
 git commit -m "v$VERSION" || exit 3
